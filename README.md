@@ -1,4 +1,6 @@
 # Pāḷi Dictionary — Từ điển Pāḷi–Việt
+📄 **Whitepaper:** [What we built on top of DPD — Vietnamese meaning layer, pronunciation readings, search & offline packs](WHITEPAPER.md)
+
 
 A free, offline Pāḷi dictionary app built on the [Digital Pāḷi Dictionary (DPD)](https://github.com/digitalpalidictionary/dpd-db), with Vietnamese glosses, pronunciation guides and audio. Built with Flutter for Android, iOS, macOS, Windows and Linux.
 
