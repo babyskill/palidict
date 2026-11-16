@@ -1,0 +1,200 @@
+{
+  "@@locale": "en",
+  "appTitle": "Pāḷi Dictionary",
+  "navLookup": "Lookup",
+  "navPacks": "Data Packs",
+  "navAbout": "About",
+  "navCungTu": "Cùng Tu",
+  "searchHint": "Search word (dhammā…)",
+  "searchEmptyPrompt": "Enter a Pali word to start lookup",
+  "desktopDetailEmptyPrompt": "Select a word from the left pane or enter a word to look up",
+  "searchNoResults": "No matching words found",
+  "searchResultsCount": "{count, plural, =0{No results} =1{1 result} other{{count} results}}",
+  "clearSearch": "Clear search",
+  "typeHeadword": "Headword",
+  "typeInflected": "Inflected form",
+  "inflectedTitle": "Inflected form: {key}",
+  "inflectedHeadwordsPrompt": "Corresponding headwords ({count}):",
+  "grammarLabel": "Grammar",
+  "vietnameseMeaningSection": "Vietnamese Meaning",
+  "sourceBuuChon": "HT Buu Chon (1976)",
+  "sourceNewTranslation": "New translation — under review",
+  "sourceCurated": "Reviewed",
+  "sensesSection": "Senses",
+  "englishMeaningSection": "English Meaning",
+  "grammarConstructionSection": "Grammar & Construction",
+  "rootLabel": "Root",
+  "rootMeaningLabel": "Root Meaning",
+  "constructionLabel": "Construction",
+  "phoneticLabel": "Phonetic",
+  "sanskritLabel": "Sanskrit",
+  "exampleSection": "Textual Example",
+  "sourceLabel": "Source",
+  "suttaLabel": "Sutta",
+  "ebtCountLabel": "EBT Frequency",
+  "ebtCountTimes": "{count} occurrences in Early Buddhist Texts",
+  "inflectionsSection": "Inflections",
+  "inflectionsLiteNote": "Full inflection tables are available in the Core pack. Please visit the Data Packs screen to download.",
+  "goToPacks": "Go to Data Packs",
+  "listenAudio": "Listen",
+  "audioPlaying": "Playing...",
+  "audioError": "Unable to play audio",
+  "audioLoading": "Loading audio…",
+  "audioSlowNetwork": "Slow connection, still loading audio…",
+  "audioPlayError": "Could not play the audio. Check your connection and try again.",
+  "activePack": "Active Pack: {packName}",
+  "packLiteTitle": "Lite Pack",
+  "packLiteDesc": "5,000 common headwords, 48,727 inflections, complete Vietnamese gloss layer. Pre-bundled, fully offline.",
+  "packCoreTitle": "Core Pack",
+  "packCoreDesc": "64,138 headwords, 367,748 inflections, full inflection tables, Sanskrit cognates, and extended root data.",
+  "statusInstalled": "Installed & Active",
+  "statusNotInstalled": "Not Installed",
+  "statusDownloading": "Downloading: {percent}%",
+  "statusExtracting": "Extracting and verifying data...",
+  "storageUsed": "Storage used: {size}",
+  "btnDownloadCore": "Download Core Pack",
+  "btnCancel": "Cancel",
+  "btnDeleteCore": "Delete Core Pack",
+  "btnSideload": "Side-load from local file",
+  "sideloadPrompt": "Enter local path to core_final.db or core_final.db.gz:",
+  "sideloadSuccess": "Core pack successfully installed and activated!",
+  "deleteConfirmTitle": "Delete Core Pack?",
+  "deleteConfirmMessage": "The app will delete the Core database file and revert to the bundled Lite pack.",
+  "btnConfirmDelete": "Confirm Delete",
+  "aboutTitle": "About PaliDict",
+  "aboutAppSubtitle": "Offline Pāḷi Dictionary",
+  "appVersion": "Version {version}",
+  "attributionTitle": "Attribution & Data Sources",
+  "dpdAttribution": "Underlying dictionary data from Digital Pali Dictionary (DPD) by Bhikkhu Bodhirasa, licensed under CC BY-NC-SA 4.0 International.",
+  "buuChonAttribution": "Primary Vietnamese gloss layer sourced from Venerable Buu Chon's Pali-Vietnamese Dictionary (1976), supplemented by newly drafted translations under review.",
+  "aboutAuthorTitle": "Author",
+  "aboutAuthorIntro": "Developed by Kiên Lê, a Dhamma offering in support of the practice community.",
+  "close": "Close",
+  "back": "Back",
+  "loading": "Loading data...",
+  "errorOccurred": "An error occurred: {error}",
+  "cungTuScreenTitle": "Cùng Tu Companion App",
+  "cungTuAppTitle": "Cùng Tu",
+  "cungTuTagline": "Listen to the discourses — read & hear the complete five Nikāya collections",
+  "cungTuBadge": "Giac Ngo ecosystem",
+  "cungTuDescription": "Cùng Tu is an app for listening to and reading the Nikāya discourses: 750+ suttas with 388 hours of Southern Vietnamese narration, and bilingual Pāḷi–Vietnamese reading in Ven. Thích Minh Châu's translation. Cùng Tu and this dictionary belong to the same non-commercial community project.",
+  "cungTuFeaturesTitle": "Key Features",
+  "cungTuFeatureNikaya": "The complete five Nikāya collections — 750+ discourses, 388 hours of narration",
+  "cungTuFeatureBilingual": "Bilingual Pāḷi–Vietnamese reading — Ven. Thích Minh Châu's translation",
+  "cungTuFeatureOffline": "Download suttas and listen offline",
+  "cungTuFeatureFree": "Completely free, no ads",
+  "cungTuCrossReferenceTitle": "A study companion",
+  "cungTuCrossReference": "Look words up here to better understand the chants and Pāḷi lessons in Cùng Tu. The two apps work independently and do not sync data with each other — they simply share the same community project.",
+  "cungTuOpenWeb": "Learn more & get Cùng Tu",
+  "cungTuLaunchError": "Could not open the link",
+  "downloadFailedHttp": "Download failed (HTTP {statusCode})",
+  "downloadFailedAllSources": "Download failed from all sources (HTTP {statusCode})",
+  "verificationFailedSize": "File size mismatch (expected {expected} bytes, got {actual} bytes)",
+  "verificationFailedSha256": "Checksum (SHA-256) verification failed",
+  "verificationFailedDbSize": "Database size mismatch (expected {expected} bytes, got {actual} bytes)",
+  "downloadSize": "Download: {size}",
+  "installedSize": "Installed: {size}",
+  "homeWordOfDay": "Word of the day",
+  "homeFrequentTitle": "Frequent in the discourses",
+  "homeAlphabetTitle": "Browse by letter",
+  "homeRecentTitle": "Recent",
+  "letterListTitle": "Words starting with \"{letter}\"",
+  "inheritedFrom": "Inherited from '{base}'",
+  "@inheritedFrom": {
+    "description": "Label indicating Vietnamese gloss was inherited from base lemma",
+    "placeholders": {
+      "base": {
+        "type": "String"
+      }
+    }
+  },
+  "inheritedGeneric": "Inherited from the base word",
+  "@inheritedGeneric": {
+    "description": "Label indicating Vietnamese gloss was inherited from a base word without specified lemma"
+  },
+  "englishMeaningTitle": "English meaning (DPD)",
+  "@englishMeaningTitle": {
+    "description": "Title for English meaning section when no Vietnamese meaning exists"
+  },
+  "viMeaningPending": "Vietnamese meaning is being added.",
+  "@viMeaningPending": {
+    "description": "Note indicating Vietnamese meaning is pending"
+  },
+  "constructionTitle": "Meaning by components",
+  "@constructionTitle": {
+    "description": "Title for compound word construction meaning section"
+  },
+  "statusError": "Error",
+  "@statusError": {
+    "description": "Status chip label for pack in error state"
+  },
+  "packErrorHttp": "Could not download the pack (error {code}). Check your connection and try again.",
+  "@packErrorHttp": {
+    "description": "Error message when pack download fails with HTTP status code",
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "packErrorVerification": "The downloaded pack does not match the original data. Please try again.",
+  "@packErrorVerification": {
+    "description": "Error message when downloaded pack size or checksum does not match expected manifest"
+  },
+  "packErrorNetwork": "Something went wrong while downloading the pack. Check your connection and try again.",
+  "@packErrorNetwork": {
+    "description": "Error message when pack download fails due to network, timeout, or general download error"
+  },
+  "packErrorDelete": "Could not delete the data pack. Please try again.",
+  "@packErrorDelete": {
+    "description": "Error message when deleting data pack fails"
+  },
+  "packErrorSideload": "Could not load the data pack. Please try again.",
+  "@packErrorSideload": {
+    "description": "Error message when loading data pack from local device file fails"
+  },
+  "packErrorSideloadMismatch": "The selected pack file does not match the original data. Please try again.",
+  "@packErrorSideloadMismatch": {
+    "description": "Error message when sideloaded pack file fails verification"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Title for settings screen and icon tooltip"
+  },
+  "settingsAppearance": "Appearance",
+  "@settingsAppearance": {
+    "description": "Section header for appearance settings"
+  },
+  "settingsThemeLight": "Light",
+  "@settingsThemeLight": {
+    "description": "Light theme option"
+  },
+  "settingsThemeDark": "Dark",
+  "@settingsThemeDark": {
+    "description": "Dark theme option"
+  },
+  "settingsThemeSystem": "System default",
+  "@settingsThemeSystem": {
+    "description": "System default theme option"
+  },
+  "settingsLanguage": "Language",
+  "@settingsLanguage": {
+    "description": "Section header for language settings"
+  },
+  "settingsLanguageVi": "Vietnamese",
+  "@settingsLanguageVi": {
+    "description": "Vietnamese language option"
+  },
+  "settingsLanguageEn": "English",
+  "@settingsLanguageEn": {
+    "description": "English language option"
+  },
+  "pronunciationTitle": "Pronunciation",
+  "@pronunciationTitle": {
+    "description": "Title for pronunciation section"
+  },
+  "pronunciationNote": "Approximate reading. A long mark (ā, ī, ū) means hold the vowel longer. Listen to the audio for the exact sound.",
+  "@pronunciationNote": {
+    "description": "Footnote explaining approximate pronunciation conventions"
+  }
+}

@@ -1,0 +1,583 @@
+{
+  "@@locale": "vi",
+  "appTitle": "Từ điển Pāḷi - Việt",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  "navLookup": "Tra cứu",
+  "@navLookup": {
+    "description": "Navigation item for lookup"
+  },
+  "navPacks": "Gói dữ liệu",
+  "@navPacks": {
+    "description": "Navigation item for data packs"
+  },
+  "navAbout": "Giới thiệu",
+  "@navAbout": {
+    "description": "Navigation item for about screen"
+  },
+  "navCungTu": "Cùng Tu",
+  "@navCungTu": {
+    "description": "Navigation item for Cùng Tu companion app"
+  },
+  "searchHint": "Nhập từ cần tra (dhammā…)",
+  "@searchHint": {
+    "description": "Search input placeholder"
+  },
+  "searchEmptyPrompt": "Nhập từ Pāḷi để bắt đầu tra cứu",
+  "@searchEmptyPrompt": {
+    "description": "Prompt when search input is empty"
+  },
+  "desktopDetailEmptyPrompt": "Chọn một từ ở cột bên trái hoặc nhập từ để tra cứu",
+  "@desktopDetailEmptyPrompt": {
+    "description": "Empty state prompt for master-detail right pane on desktop"
+  },
+  "searchNoResults": "Không tìm thấy từ phù hợp",
+  "@searchNoResults": {
+    "description": "Message when no words match"
+  },
+  "searchResultsCount": "{count, plural, =0{Không có kết quả} =1{1 kết quả} other{{count} kết quả}}",
+  "@searchResultsCount": {
+    "description": "Search results counter",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clearSearch": "Xóa tìm kiếm",
+  "@clearSearch": {
+    "description": "Tooltip for clear search button"
+  },
+  "typeHeadword": "Mục từ",
+  "@typeHeadword": {
+    "description": "Label for headword suggestion type"
+  },
+  "typeInflected": "Dạng biến cách",
+  "@typeInflected": {
+    "description": "Label for inflected suggestion type"
+  },
+  "inflectedTitle": "Dạng biến cách: {key}",
+  "@inflectedTitle": {
+    "description": "Title for inflected forms view",
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "inflectedHeadwordsPrompt": "Các mục từ tương ứng ({count}):",
+  "@inflectedHeadwordsPrompt": {
+    "description": "Header for headwords matching an inflected form",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "grammarLabel": "Ngữ pháp",
+  "@grammarLabel": {
+    "description": "Label for grammar note"
+  },
+  "vietnameseMeaningSection": "Nghĩa tiếng Việt",
+  "@vietnameseMeaningSection": {
+    "description": "Section header for Vietnamese meaning"
+  },
+  "sourceBuuChon": "HT Bửu Chơn (1976)",
+  "@sourceBuuChon": {
+    "description": "Source citation for Buu Chon dictionary"
+  },
+  "sourceNewTranslation": "Bản dịch mới — đang hiệu đính",
+  "@sourceNewTranslation": {
+    "description": "Source tag for new translation under review"
+  },
+  "sourceCurated": "Đã hiệu đính",
+  "@sourceCurated": {
+    "description": "Source tag for curated terminology correction"
+  },
+  "sensesSection": "Các nét nghĩa",
+  "@sensesSection": {
+    "description": "Section header for multiple word senses"
+  },
+  "englishMeaningSection": "Nghĩa tiếng Anh",
+  "@englishMeaningSection": {
+    "description": "Section header for English meaning"
+  },
+  "grammarConstructionSection": "Ngữ pháp & Cấu tạo từ",
+  "@grammarConstructionSection": {
+    "description": "Section header for grammar and construction block"
+  },
+  "rootLabel": "Căn từ",
+  "@rootLabel": {
+    "description": "Label for root key"
+  },
+  "rootMeaningLabel": "Ý nghĩa căn",
+  "@rootMeaningLabel": {
+    "description": "Label for root meaning"
+  },
+  "constructionLabel": "Cấu tạo",
+  "@constructionLabel": {
+    "description": "Label for word construction"
+  },
+  "phoneticLabel": "Biến âm",
+  "@phoneticLabel": {
+    "description": "Label for phonetic changes"
+  },
+  "sanskritLabel": "Tiếng Phạn (Sanskrit)",
+  "@sanskritLabel": {
+    "description": "Label for Sanskrit equivalent"
+  },
+  "exampleSection": "Ví dụ kinh văn",
+  "@exampleSection": {
+    "description": "Section header for example block"
+  },
+  "sourceLabel": "Nguồn",
+  "@sourceLabel": {
+    "description": "Label for source reference"
+  },
+  "suttaLabel": "Kinh văn",
+  "@suttaLabel": {
+    "description": "Label for sutta reference"
+  },
+  "ebtCountLabel": "Tần suất EBT",
+  "@ebtCountLabel": {
+    "description": "Label for EBT occurrence count"
+  },
+  "ebtCountTimes": "{count} lần xuất hiện trong kinh điển sơ thời",
+  "@ebtCountTimes": {
+    "description": "Description of EBT count",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "inflectionsSection": "Bảng biến cách",
+  "@inflectionsSection": {
+    "description": "Section header for inflections"
+  },
+  "inflectionsLiteNote": "Bảng biến cách chi tiết khả dụng trong gói Đầy đủ (Core pack). Vui lòng vào mục Gói dữ liệu để tải về.",
+  "@inflectionsLiteNote": {
+    "description": "Notice on Lite pack that inflections require Core pack"
+  },
+  "goToPacks": "Đến Gói dữ liệu",
+  "@goToPacks": {
+    "description": "Button to navigate to packs screen"
+  },
+  "listenAudio": "Nghe phát âm",
+  "@listenAudio": {
+    "description": "Button to play male pronunciation audio"
+  },
+  "audioPlaying": "Đang phát...",
+  "@audioPlaying": {
+    "description": "State when audio is playing"
+  },
+  "audioError": "Không thể phát âm thanh",
+  "@audioError": {
+    "description": "Error message when audio playback fails"
+  },
+  "audioLoading": "Đang tải âm thanh…",
+  "@audioLoading": {
+    "description": "Trạng thái đang tải âm thanh"
+  },
+  "audioSlowNetwork": "Kết nối mạng chậm, vẫn đang tải âm thanh…",
+  "@audioSlowNetwork": {
+    "description": "Thông báo khi kết nối mạng chậm và đang tải âm thanh"
+  },
+  "audioPlayError": "Không phát được âm thanh. Kiểm tra kết nối mạng rồi thử lại.",
+  "@audioPlayError": {
+    "description": "Thông báo lỗi khi không phát được âm thanh"
+  },
+  "activePack": "Gói đang kích hoạt: {packName}",
+  "@activePack": {
+    "description": "Active data pack name banner",
+    "placeholders": {
+      "packName": {
+        "type": "String"
+      }
+    }
+  },
+  "packLiteTitle": "Gói Tinh gọn (Lite pack)",
+  "@packLiteTitle": {
+    "description": "Title of Lite pack"
+  },
+  "packLiteDesc": "5.000 mục từ thông dụng, 48.727 dạng biến cách, toàn bộ nghĩa tiếng Việt. Tích hợp sẵn trong ứng dụng, tra cứu ngoại tuyến ngay lập tức.",
+  "@packLiteDesc": {
+    "description": "Description of Lite pack"
+  },
+  "packCoreTitle": "Gói Đầy đủ (Core pack)",
+  "@packCoreTitle": {
+    "description": "Title of Core pack"
+  },
+  "packCoreDesc": "64.138 mục từ, 367.748 dạng biến cách, bảng biến cách chi tiết, tương đương Phạn ngữ và thông tin gốc từ mở rộng.",
+  "@packCoreDesc": {
+    "description": "Description of Core pack"
+  },
+  "statusInstalled": "Đã cài đặt & đang sử dụng",
+  "@statusInstalled": {
+    "description": "Pack status installed"
+  },
+  "statusNotInstalled": "Chưa cài đặt",
+  "@statusNotInstalled": {
+    "description": "Pack status not installed"
+  },
+  "statusDownloading": "Đang tải về: {percent}%",
+  "@statusDownloading": {
+    "description": "Pack status downloading",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "statusExtracting": "Đang giải nén và kiểm tra dữ liệu...",
+  "@statusExtracting": {
+    "description": "Pack status extracting"
+  },
+  "storageUsed": "Dung lượng bộ nhớ: {size}",
+  "@storageUsed": {
+    "description": "Storage used indicator",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "btnDownloadCore": "Tải gói Đầy đủ (Core)",
+  "@btnDownloadCore": {
+    "description": "Button to download Core pack"
+  },
+  "btnCancel": "Hủy",
+  "@btnCancel": {
+    "description": "Cancel button"
+  },
+  "btnDeleteCore": "Xóa gói Đầy đủ",
+  "@btnDeleteCore": {
+    "description": "Button to delete Core pack"
+  },
+  "btnSideload": "Nạp gói từ tệp tin thiết bị",
+  "@btnSideload": {
+    "description": "Button to side-load Core pack from file"
+  },
+  "sideloadPrompt": "Nhập đường dẫn tệp core_final.db hoặc core_final.db.gz trên máy:",
+  "@sideloadPrompt": {
+    "description": "Prompt for local path"
+  },
+  "sideloadSuccess": "Đã nạp và kích hoạt gói Core thành công!",
+  "@sideloadSuccess": {
+    "description": "Success notification for sideload"
+  },
+  "deleteConfirmTitle": "Xác nhận xóa gói Đầy đủ?",
+  "@deleteConfirmTitle": {
+    "description": "Dialog title for deletion confirmation"
+  },
+  "deleteConfirmMessage": "Ứng dụng sẽ xóa tệp dữ liệu Core và quay về sử dụng gói Tinh gọn (Lite) tích hợp sẵn.",
+  "@deleteConfirmMessage": {
+    "description": "Dialog message for deletion confirmation"
+  },
+  "btnConfirmDelete": "Xác nhận xóa",
+  "@btnConfirmDelete": {
+    "description": "Confirm deletion button"
+  },
+  "aboutTitle": "Giới thiệu ứng dụng",
+  "@aboutTitle": {
+    "description": "About screen title"
+  },
+  "aboutAppSubtitle": "Từ điển Pāḷi - Việt ngoại tuyến",
+  "@aboutAppSubtitle": {
+    "description": "App subtitle on about screen"
+  },
+  "appVersion": "Phiên bản {version}",
+  "@appVersion": {
+    "description": "App version string",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "attributionTitle": "Bản quyền & Nguồn dữ liệu",
+  "@attributionTitle": {
+    "description": "Attribution section header"
+  },
+  "dpdAttribution": "Dữ liệu từ điển gốc từ Digital Pali Dictionary (DPD) do Tỳ-khưu Bodhirasa biên soạn, phát hành dưới giấy phép Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).",
+  "@dpdAttribution": {
+    "description": "DPD attribution text"
+  },
+  "buuChonAttribution": "Lớp dịch nghĩa tiếng Việt chính yếu trích từ Từ điển Pāḷi - Việt của Cố Hòa thượng Bửu Chơn (xuất bản năm 1976), kết hợp cùng các bản dịch đối chiếu mới đang trong tiến trình hiệu đính.",
+  "@buuChonAttribution": {
+    "description": "Buu Chon dictionary attribution"
+  },
+  "aboutAuthorTitle": "Tác giả",
+  "@aboutAuthorTitle": {
+    "description": "Author card title on about screen"
+  },
+  "aboutAuthorIntro": "Ứng dụng do Kiên Lê phát triển, một thiện pháp hỗ trợ cộng đồng tu học.",
+  "@aboutAuthorIntro": {
+    "description": "Author card introduction text on about screen"
+  },
+  "close": "Đóng",
+  "@close": {
+    "description": "Close button label"
+  },
+  "back": "Quay lại",
+  "@back": {
+    "description": "Back button label"
+  },
+  "loading": "Đang tải dữ liệu...",
+  "@loading": {
+    "description": "Loading indicator label"
+  },
+  "errorOccurred": "Đã xảy ra lỗi: {error}",
+  "@errorOccurred": {
+    "description": "Generic error display",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "cungTuScreenTitle": "Ứng dụng Cùng Tu",
+  "@cungTuScreenTitle": {
+    "description": "AppBar title for Cùng Tu companion screen"
+  },
+  "cungTuAppTitle": "Cùng Tu",
+  "@cungTuAppTitle": {
+    "description": "Title of the companion app"
+  },
+  "cungTuTagline": "Nghe Kinh Phật — Nghe & Đọc Trọn 5 Bộ Kinh Nikāya",
+  "@cungTuTagline": {
+    "description": "Tagline for Cùng Tu app"
+  },
+  "cungTuBadge": "Hệ sinh thái Giác Ngộ",
+  "@cungTuBadge": {
+    "description": "Badge indicating companion community project"
+  },
+  "cungTuDescription": "Cùng Tu là ứng dụng nghe và đọc Kinh Phật Nikāya: hơn 750 bài kinh với 388 giờ giọng đọc miền Nam, đọc song ngữ Pāḷi–Việt theo bản dịch của HT Thích Minh Châu. Cùng Tu và từ điển này cùng thuộc một dự án cộng đồng phi thương mại.",
+  "@cungTuDescription": {
+    "description": "Short description of Cùng Tu"
+  },
+  "cungTuFeaturesTitle": "Tính năng nổi bật",
+  "@cungTuFeaturesTitle": {
+    "description": "Section header for Cùng Tu features"
+  },
+  "cungTuFeatureNikaya": "Nghe trọn 5 bộ Kinh Nikāya — hơn 750 bài, 388 giờ giọng đọc miền Nam",
+  "@cungTuFeatureNikaya": {
+    "description": "Feature bullet for 5 Nikaya collections with audio"
+  },
+  "cungTuFeatureBilingual": "Đọc song ngữ Pāḷi–Việt — bản dịch HT Thích Minh Châu",
+  "@cungTuFeatureBilingual": {
+    "description": "Feature bullet for bilingual reading"
+  },
+  "cungTuFeatureOffline": "Tải về nghe offline, không cần mạng",
+  "@cungTuFeatureOffline": {
+    "description": "Feature bullet for offline listening"
+  },
+  "cungTuFeatureFree": "Hoàn toàn miễn phí, không quảng cáo",
+  "@cungTuFeatureFree": {
+    "description": "Feature bullet for free and ad-free experience"
+  },
+  "cungTuCrossReferenceTitle": "Đồng hành tu học",
+  "@cungTuCrossReferenceTitle": {
+    "description": "Section header for cross-reference note"
+  },
+  "cungTuCrossReference": "Tra nghĩa tại đây để hiểu rõ hơn các bài tụng kinh và bài học Pāḷi trong Cùng Tu. Hai ứng dụng hoạt động độc lập và không đồng bộ dữ liệu với nhau — chỉ cùng chung một dự án cộng đồng.",
+  "@cungTuCrossReference": {
+    "description": "Cross-reference note explaining connection to dictionary"
+  },
+  "cungTuOpenWeb": "Tìm hiểu & tải app Cùng Tu",
+  "@cungTuOpenWeb": {
+    "description": "Button to open Cùng Tu web landing page and app"
+  },
+  "cungTuLaunchError": "Không thể mở liên kết",
+  "@cungTuLaunchError": {
+    "description": "Snackbar message when web link fails to launch"
+  },
+  "downloadFailedHttp": "Tải về thất bại (HTTP {statusCode})",
+  "@downloadFailedHttp": {
+    "description": "Error message when download returns HTTP error code",
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "downloadFailedAllSources": "Tải về thất bại từ tất cả các nguồn (HTTP {statusCode})",
+  "@downloadFailedAllSources": {
+    "description": "Error message when all download sources fail",
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+  "verificationFailedSize": "Kích thước tệp không khớp (kỳ vọng {expected} bytes, thực tế {actual} bytes)",
+  "@verificationFailedSize": {
+    "description": "Error message for size mismatch",
+    "placeholders": {
+      "expected": {
+        "type": "int"
+      },
+      "actual": {
+        "type": "int"
+      }
+    }
+  },
+  "verificationFailedSha256": "Mã kiểm tra (SHA-256) không khớp",
+  "@verificationFailedSha256": {
+    "description": "Error message for sha256 mismatch"
+  },
+  "verificationFailedDbSize": "Kích thước cơ sở dữ liệu không khớp (kỳ vọng {expected} bytes, thực tế {actual} bytes)",
+  "@verificationFailedDbSize": {
+    "description": "Error message for db size mismatch",
+    "placeholders": {
+      "expected": {
+        "type": "int"
+      },
+      "actual": {
+        "type": "int"
+      }
+    }
+  },
+  "downloadSize": "Tải về: {size}",
+  "@downloadSize": {
+    "description": "Download size label",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "installedSize": "Cài đặt: {size}",
+  "@installedSize": {
+    "description": "Installed size label",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "homeWordOfDay": "Từ của ngày",
+  "@homeWordOfDay": {
+    "description": "Word of the Day section header"
+  },
+  "homeFrequentTitle": "Hay gặp trong kinh",
+  "@homeFrequentTitle": {
+    "description": "Frequent in the Discourses section header"
+  },
+  "homeAlphabetTitle": "Mục lục chữ cái",
+  "@homeAlphabetTitle": {
+    "description": "Alphabet Index section header"
+  },
+  "homeRecentTitle": "Gần đây",
+  "@homeRecentTitle": {
+    "description": "Recent words section header"
+  },
+  "letterListTitle": "Từ bắt đầu bằng \"{letter}\"",
+  "@letterListTitle": {
+    "description": "Screen/section title for words starting with a specific letter",
+    "placeholders": {
+      "letter": {
+        "type": "String"
+      }
+    }
+  },
+  "inheritedFrom": "Kế thừa từ '{base}'",
+  "@inheritedFrom": {
+    "description": "Label indicating Vietnamese gloss was inherited from base lemma",
+    "placeholders": {
+      "base": {
+        "type": "String"
+      }
+    }
+  },
+  "inheritedGeneric": "Kế thừa từ từ gốc",
+  "@inheritedGeneric": {
+    "description": "Label indicating Vietnamese gloss was inherited from a base word without specified lemma"
+  },
+  "englishMeaningTitle": "Nghĩa tiếng Anh (DPD)",
+  "@englishMeaningTitle": {
+    "description": "Title for English meaning section when no Vietnamese meaning exists"
+  },
+  "viMeaningPending": "Nghĩa tiếng Việt đang được bổ sung.",
+  "@viMeaningPending": {
+    "description": "Note indicating Vietnamese meaning is pending"
+  },
+  "constructionTitle": "Nghĩa theo cấu tạo",
+  "@constructionTitle": {
+    "description": "Title for compound word construction meaning section"
+  },
+  "statusError": "Lỗi",
+  "@statusError": {
+    "description": "Status chip label for pack in error state"
+  },
+  "packErrorHttp": "Không tải được gói (mã lỗi {code}). Kiểm tra kết nối mạng rồi thử lại.",
+  "@packErrorHttp": {
+    "description": "Error message when pack download fails with HTTP status code",
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "packErrorVerification": "Tệp gói tải về không khớp dữ liệu gốc. Vui lòng thử lại.",
+  "@packErrorVerification": {
+    "description": "Error message when downloaded pack size or checksum does not match expected manifest"
+  },
+  "packErrorNetwork": "Đã xảy ra lỗi khi tải gói. Kiểm tra kết nối mạng rồi thử lại.",
+  "@packErrorNetwork": {
+    "description": "Error message when pack download fails due to network, timeout, or general download error"
+  },
+  "packErrorDelete": "Đã xảy ra lỗi khi xóa gói dữ liệu. Vui lòng thử lại.",
+  "@packErrorDelete": {
+    "description": "Error message when deleting data pack fails"
+  },
+  "packErrorSideload": "Đã xảy ra lỗi khi nạp gói dữ liệu. Vui lòng thử lại.",
+  "@packErrorSideload": {
+    "description": "Error message when loading data pack from local device file fails"
+  },
+  "packErrorSideloadMismatch": "Tệp gói nạp vào không khớp dữ liệu gốc. Vui lòng thử lại.",
+  "@packErrorSideloadMismatch": {
+    "description": "Error message when sideloaded pack file fails verification"
+  },
+  "settings": "Cài đặt",
+  "@settings": {
+    "description": "Title for settings screen and icon tooltip"
+  },
+  "settingsAppearance": "Giao diện",
+  "@settingsAppearance": {
+    "description": "Section header for appearance settings"
+  },
+  "settingsThemeLight": "Sáng",
+  "@settingsThemeLight": {
+    "description": "Light theme option"
+  },
+  "settingsThemeDark": "Tối",
+  "@settingsThemeDark": {
+    "description": "Dark theme option"
+  },
+  "settingsThemeSystem": "Theo hệ thống",
+  "@settingsThemeSystem": {
+    "description": "System default theme option"
+  },
+  "settingsLanguage": "Ngôn ngữ",
+  "@settingsLanguage": {
+    "description": "Section header for language settings"
+  },
+  "settingsLanguageVi": "Tiếng Việt",
+  "@settingsLanguageVi": {
+    "description": "Vietnamese language option"
+  },
+  "settingsLanguageEn": "English",
+  "@settingsLanguageEn": {
+    "description": "English language option"
+  },
+  "pronunciationTitle": "Cách đọc",
+  "@pronunciationTitle": {
+    "description": "Title for pronunciation section"
+  },
+  "pronunciationNote": "Cách đọc gần đúng. Dấu ngang (ā, ī, ū) nghĩa là đọc kéo dài. Nghe phát âm để có âm chuẩn.",
+  "@pronunciationNote": {
+    "description": "Footnote explaining approximate pronunciation conventions"
+  }
+}
