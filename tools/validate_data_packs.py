@@ -22,6 +22,7 @@ import json
 import sqlite3
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 PACK_SUFFIXES = {".db", ".sqlite", ".sqlite3"}
@@ -63,7 +64,7 @@ def table_columns(db: sqlite3.Connection, table: str) -> set[str]:
 def validate_pack(path: Path) -> list[str]:
     errors: list[str] = []
     try:
-        db = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+        db = sqlite3.connect(f"file:{quote(str(path))}?mode=ro", uri=True)
     except sqlite3.Error as e:
         return [f"cannot open as SQLite: {e}"]
 
@@ -95,20 +96,47 @@ def validate_pack(path: Path) -> list[str]:
                     errors.append(f"table {table} is empty")
 
         if "lookup" in tables:
+            headword_ids = (
+                {row[0] for row in db.execute("SELECT id FROM headwords")}
+                if "headwords" in tables
+                else set()
+            )
             bad = 0
+            empty = 0
+            dangling = 0
             for (raw,) in db.execute("SELECT headwords FROM lookup"):
+                if not isinstance(raw, str):
+                    bad += 1
+                    continue
                 try:
                     ids = json.loads(raw)
-                except (TypeError, json.JSONDecodeError):
+                except json.JSONDecodeError:
                     bad += 1
                     continue
                 if not isinstance(ids, list) or not all(
                     isinstance(i, int) for i in ids
                 ):
                     bad += 1
+                elif not ids:
+                    empty += 1
+                elif all(i not in headword_ids for i in ids):
+                    # A lookup row with zero resolvable ids yields an empty
+                    # results page in the app. Partial misses are normal:
+                    # Lite shares the full lookup index while shipping only
+                    # a subset of headwords.
+                    dangling += 1
             if bad:
                 errors.append(
                     f"lookup.headwords is not a JSON list of ids in {bad} row(s)"
+                )
+            if empty:
+                errors.append(
+                    f"lookup.headwords is an empty list in {empty} row(s)"
+                )
+            if dangling:
+                errors.append(
+                    f"lookup.headwords has no id present in headwords "
+                    f"in {dangling} row(s)"
                 )
     finally:
         db.close()
@@ -123,7 +151,10 @@ def main() -> int:
 
     failed = 0
     for pack in packs:
-        rel = pack.resolve().relative_to(DATA_DIR.parent)
+        try:
+            rel = pack.resolve().relative_to(DATA_DIR.parent)
+        except ValueError:
+            rel = pack
         errors = validate_pack(pack)
         if errors:
             failed += 1
