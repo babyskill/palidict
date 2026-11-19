@@ -98,7 +98,7 @@ def validate_pack(path: Path) -> list[str]:
         if "lookup" in tables:
             headword_ids = (
                 {row[0] for row in db.execute("SELECT id FROM headwords")}
-                if "headwords" in tables
+                if "id" in table_columns(db, "headwords")
                 else set()
             )
             bad = 0
@@ -119,7 +119,7 @@ def validate_pack(path: Path) -> list[str]:
                     bad += 1
                 elif not ids:
                     empty += 1
-                elif all(i not in headword_ids for i in ids):
+                elif headword_ids and all(i not in headword_ids for i in ids):
                     # A lookup row with zero resolvable ids yields an empty
                     # results page in the app. Partial misses are normal:
                     # Lite shares the full lookup index while shipping only
